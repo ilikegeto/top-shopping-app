@@ -9,3 +9,8 @@ body {
     padding: 0;
     width: 100%;
 }
+#netlify-badge, 
+[data-netlify-deploy-id], 
+iframe[src*="netlify"] {
+  display: none !important;
+}
